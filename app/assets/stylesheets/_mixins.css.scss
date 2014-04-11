@@ -1,0 +1,4 @@
+@mixin free-transfrom($transform) {
+  -ms-transform:matrix (a, c, b, d, tx, ty); /* IE 9 */
+-webkit-transform:rotate (a, c, b, d, tx, ty); /* Opera, Chrome, and Safari */
+}
